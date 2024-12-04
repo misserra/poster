@@ -1,0 +1,53 @@
+.yellowCircle {
+  width: 232.3px;
+  height: 216px;
+  background-image:url('images/circle.jpg');
+  background-size: cover;
+  margin: 50px 0px;
+}
+
+.move {
+  animation: move 1s steps(1) infinite;
+}
+
+.path {
+  width: 232.3px;
+  height: 216px;
+  position: relative;
+  top: 0;
+  animation: path 10s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 top;
+  }
+  25% {
+    background-position: -68px top;
+  }
+  50% {
+    background-position: -136px top;
+  }
+}
+
+@keyframes path {
+  0% {
+    left: -68px;
+  }
+  48% {
+    left: 48%;
+    top: 0%;
+  }
+  50% {
+    left: 50%;
+    top: 0%;
+  }
+  52% {
+    left: 52%;
+    top: 0;
+  }
+  100% {
+    left: 100%;
+    top: 0;
+  }
+}

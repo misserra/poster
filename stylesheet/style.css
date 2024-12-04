@@ -1,0 +1,21 @@
+.redCircle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100%;
+    animation: toBlueBox 4s infinite linear;
+  }
+  @keyframes toBlueBox {
+    0% {
+      background-color: red;
+      border-radius: 100%;
+    }
+    50% {
+      background-color: blue;
+      border-radius: 0;
+    }
+    100% {
+      background-color: red;
+      border-radius: 100%;
+    }
+  }
