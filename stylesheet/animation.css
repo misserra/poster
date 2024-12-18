@@ -1,53 +1,1248 @@
-.yellowCircle {
-  width: 232.3px;
-  height: 216px;
-  background-image:url('images/circle.jpg');
-  background-size: cover;
-  margin: 50px 0px;
+.header_img {
+    position: absolute;
 }
 
-.move {
-  animation: move 1s steps(1) infinite;
+.header_img_1 {
+    width: 124.09px;
+    height: 127.39px;
+    animation: fly1 40s infinite linear;
 }
 
-.path {
-  width: 232.3px;
-  height: 216px;
-  position: relative;
-  top: 0;
-  animation: path 10s linear infinite;
+@keyframes fly1 {
+    0% {
+       left: -83.3px; 
+       top: 500px;
+    }
+    50% {
+        left: 50%;
+        top: -50%;
+    }
+    100% {
+        left: 100%;
+        top: -100%;
+    }
+    }
+
+.header_img_2 {
+    width: 153.61px;
+    height: 157.7;
+    animation: fly2 40s infinite linear;
 }
 
-@keyframes move {
-  0% {
-    background-position: 0 top;
-  }
-  25% {
-    background-position: -68px top;
-  }
-  50% {
-    background-position: -136px top;
-  }
+@keyframes fly2 {
+    0% {
+        bottom: 103.11px; 
+        top: 500px;
+     }
+     50% {
+         left: 50%;
+         top: -100%;
+     }
+     100% {
+         left: 100%;
+         top: -100%;
+     }
 }
 
-@keyframes path {
-  0% {
-    left: -68px;
-  }
-  48% {
-    left: 48%;
-    top: 0%;
-  }
-  50% {
-    left: 50%;
-    top: 0%;
-  }
-  52% {
-    left: 52%;
-    top: 0;
-  }
-  100% {
-    left: 100%;
-    top: 0;
-  }
+.header_img_3 {
+    width: 166.23px;
+    height: 170.66px;
+    animation: fly3 60s infinite;
 }
+
+@keyframes fly3 {
+    0% {
+        right: 500px; 
+        top: 500px;
+     }
+     50% {
+         left: 50%;
+         top: -100%;
+     }
+     100% {
+         left: 100%;
+         top: -200%;
+     }
+}
+
+.header_img_4 {
+    width: 130.59px;
+    height: 134.07px;
+    animation: fly4 60s infinite;
+}
+ 
+@keyframes fly4 {
+    0% {
+    right: 800px;
+    top: 500px;
+    }
+    50% {
+        left: 50%;
+        right: 100%;
+    }
+    100% {
+        left: 100%;
+        top: -300%;
+    }
+}
+
+.header_img_5 {
+    width: 130.59px;
+    height: 134.07px;
+    animation: fly5 60s infinite;
+}
+
+@keyframes fly5 {
+    0% {
+        left: 500px;
+        top: 500px;
+    }
+    50% {
+        left: 50%;
+        right: 100%;
+    }
+    100% {
+        left: 100%;
+        top: -200%;
+    }
+}
+
+.yellowcircle {
+    position: absolute;
+    width: 37.24px;
+    height: 37.24px;
+    background-color: gold;
+    border-radius: 100%;
+}
+.yellowcircle_1 {
+    left: 5px;
+    top: 1px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_1_blur {
+    left: 5px;
+    top: 1px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_2 {
+    left: 60px;
+    top: 40px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_2_blur {
+    left: 60px;
+    top: 40px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_3 {
+    left: 120px;
+    top: 80px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_3_blur {
+    left: 120px;
+    top: 80px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+
+.yellowcircle_4 {
+    left: 180px;
+    top: 120px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_4_blur {
+    left: 180px;
+    top: 120px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_5 {
+    left: 250px;
+    top: 160px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_5_blur {
+    left: 250px;
+    top: 160px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_6 {
+    left: 320px;
+    top: 195px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_6_blur {
+    left: 320px;
+    top: 195px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_7 {
+    left: 390px;
+    top: 225px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_7_blur {
+    left: 390px;
+    top: 225px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_8 {
+    left: 460px;
+    top: 255px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_8_blur {
+    left: 460px;
+    top: 255px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_9 {
+    left: 530px;
+    top: 275px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_9_blur {
+    left: 530px;
+    top: 275px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_10 {
+    left: 605px;
+    top: 295px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_10_blur {
+    left: 605px;
+    top: 295px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_11 {
+    left: 680px;
+    top: 313px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_11_blur {
+    left: 680px;
+    top: 313px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_12 {
+    left: 755px;
+    top: 325px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_12_blur {
+    left: 755px;
+    top: 325px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_13 {
+    left: 830px;
+    top: 335px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_13_blur {
+    left: 830px;
+    top: 335px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_14 {
+    left: 910px;
+    top: 340px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_14_blur {
+    left: 910px;
+    top: 340px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_15 {
+    left: 980px;
+    top: 340px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_15_blur {
+    left: 980px;
+    top: 340px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_16 {
+    left: 1050px;
+    top: 335px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_16_blur {
+    left: 1050px;
+    top: 335px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_17 {
+    right: 745px;
+    top: 325px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_17_blur {
+    right: 745px;
+    top: 325px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_18 {
+    right: 680px;
+    top: 313px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_18_blur {
+    right: 680px;
+    top: 313px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_19 {
+    right: 610px;
+    top: 300px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_19_blur {
+    right: 610px;
+    top: 300px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_20 {
+    right: 540px;
+    top: 280px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_20_blur {
+    right: 540px;
+    top: 280px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_21 {
+    right: 470px;
+    top: 260px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_21_blur {
+    right: 470px;
+    top: 260px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_22 {
+    right: 400px;
+    top: 230px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_22_blur {
+    right: 400px;
+    top: 230px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_23 {
+    right: 330px;
+    top: 200px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_23_blur {
+    right: 330px;
+    top: 200px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_24 {
+    right: 260px;
+    top: 170px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_24_blur {
+    right: 260px;
+    top: 170px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_25 {
+    right: 200px;
+    top: 135px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_25_blur {
+    right: 200px;
+    top: 135px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_26 {
+    right: 130px;
+    top: 95px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_26_blur {
+    right: 130px;
+    top: 95px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_27 {
+    right: 60px;
+    top: 45px;
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_27_blur {
+    right: 60px;
+    top: 45px;
+    filter: blur(8px);
+    animation: lighting 1s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: gold;
+    }
+    50% {
+        background-color: #010016;
+    }
+    100% {
+        background-color: gold;
+    }
+}
+.yellowcircle_28 {
+    right: 5px;
+    top: 1px;
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color:#010016 ;
+    }
+    50% {
+        background-color: gold;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+.yellowcircle_28_blur {
+    right: 5px;
+    top: 1px;
+    filter: blur(8px);
+    animation: lighting 2s infinite;
+}
+@keyframes lighting {
+    0% {
+        background-color: #010016;
+    }
+    50% {
+        background-color:gold ;
+    }
+    100% {
+        background-color: #010016;
+    }
+}
+
+.row p {
+    color: #AD8AFF;
+    font-size: 7vw;
+    font-weight: bold;
+    margin-top: 12vw;
+    width: 400%;
+}
+.container {
+    position: relative;
+}
+.row {
+position: absolute;
+animation: row 6s infinite linear;
+}
+
+@keyframes row {
+    0% {
+        transform: translateX(-101%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.star_img {
+    position: absolute;
+    width: 131.75;
+    height: 131.75;
+}
+.star_img_1 {
+    animation: rr 2s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 100;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    } 
+}
+.star_img_2 {
+    animation: rr 4s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    } 
+}
+.star_img_3 {
+    animation: rr 3s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 20;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    } 
+}
+.star_img_4 {
+    animation: rr 1s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 80;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    } 
+}
+.star_img_5 {
+    animation: rr 5s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 100;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    } 
+}
+.star_img_6 {
+    animation: rr 2s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    } 
+}
+.star_img_7 {
+    animation: rr 3s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 50;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    } 
+}
+.star_img_8 {
+    animation: rr 5s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 40;
+    }
+    50% {
+        opacity: 50;
+    }
+    100% {
+        opacity: 100;
+    } 
+}
+.star_img_9 {
+    animation: rr 4s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 100;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    } 
+}
+.star_img_10 {
+    animation: rr 2s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    } 
+}
+.star_img_11 {
+    animation: rr 1s linear infinite;
+}
+@keyframes rr {
+    0% {
+        opacity: 100;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    } 
+}
+.text {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    animation: text 3s infinite linear;
+  }
+  @keyframes text {
+    0% {
+        margin-left: 40vw;
+    }
+    50% {
+    margin-left: 50vw;
+    }
+    100% {
+        margin-left: 40vw;
+    }
+    }
+     

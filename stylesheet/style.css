@@ -1,21 +1,70 @@
-.redCircle {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border-radius: 100%;
-    animation: toBlueBox 4s infinite linear;
-  }
-  @keyframes toBlueBox {
-    0% {
-      background-color: red;
-      border-radius: 100%;
-    }
-    50% {
-      background-color: blue;
-      border-radius: 0;
-    }
-    100% {
-      background-color: red;
-      border-radius: 100%;
-    }
-  }
+@import 'reset.css';
+@import 'layout.css';
+@import 'fonts.css';
+@import 'animation.css';
+@import 'adaptive.css';
+body {
+    background-color: #010016;
+}
+.lights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.star_img_1 {
+    margin-top: 22vw;
+    margin-left: 5vw;
+}
+.star_img_2 {
+    margin-top: 26vw;
+    margin-left: 12vw;
+}
+.star_img_3 {
+    margin-top: 22vw;
+    margin-left: 25vw;
+}
+.star_img_4 {
+    margin-top: 33vw;
+    margin-left: 3vw;
+}
+.star_img_5 {
+    margin-top: 35vw;
+    margin-left: 20vw;
+}
+.star_img_6 {
+    margin-top: 34vw;
+    margin-left: 33vw;
+}
+.star_img_7 {
+    margin-top: 43vw;
+    margin-left: 10vw;
+}
+.star_img_8 {
+    margin-top: 45vw;
+    margin-left: 25vw;
+}
+.star_img_9 {
+    margin-top: 50vw;
+    margin-left: 2vw;
+}
+.star_img_10 {
+    margin-top: 53vw;
+    margin-left: 17vw;
+}
+.star_img_11 {
+    margin-top: 55vw;
+    margin-left: 30vw;
+}
+.text {
+    color: aliceblue;
+    margin-top: 25vw;
+    margin-left: 45vw;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+
+
+
+
+
